@@ -7,7 +7,14 @@ class ProductList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      children: [Product(), Product()],
+      children: [
+        Product(
+          productName: "pecing",
+        ),
+        Product(
+          productName: "samsak",
+        )
+      ],
     );
   }
 }
