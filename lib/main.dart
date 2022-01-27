@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jawarashopapp/page/hommepage.dart';
+import 'package:jawarashopapp/page/homepage.dart';
 
 void main() {
   runApp(const MyApp());

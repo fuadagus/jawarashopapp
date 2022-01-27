@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:jawarashopapp/component/homepage/category/category.dart';
+import 'package:get/get.dart';
 
 class Homepage extends StatelessWidget {
   const Homepage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(title: Center(child: Text("Jawara Beladiri Store"))),
